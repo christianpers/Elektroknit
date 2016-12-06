@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Electroknit</title>
+  </head>
+  <body>
+    <div class="nav" style="opacity:0">
+      <img class="menuBurger" src="assets/icons/mobile_menu.svg" />
+      <span class="nav-item" data-id="projects">PROJECTS</span>
+      <span class="nav-item" data-id="about">ABOUT</span>
+      <span class="nav-item" data-id="contact">CONTACT</span>
+      <a href="https://www.facebook.com/helloelectroknit" target="_blank" class="nav-item">FACEBOOK</a>
+      <a href="https://www.instagram.com/helloelectroknit" target="_blank" class="nav-item">INSTAGRAM</a>
+    </div>
+    <h1 class="logo" style="opacity: 0">ELECTROKNIT</h1>
+    <img class="closeBtn" src="assets/icons/cancel.svg" style="opacity:0" />
+    <div class="container" style="opacity: 0">
+      <div id="imageWrapper" class="imageContainer"></div>
+    </div>
+    <div class="overlay about" data-id="about" style="opacity: 0">
+      <!-- <h3 class="overlayTitle">ABOUT</h3> -->
+      <p class="overlayDescr">
+        Welcome to a world of knit!</br></br>
+        Electroknit is a knit company founded by the Swedish designer Hanna Rubin.</br></br>
+        Inspired by the ancient technique of knitting we want to challenge the idea of what a knitted piece can be and taking it in to new contexts by using unexpected materials and adding functions to the textile.
+        </br></br>
+        Our playful pieces are carefully made with many hours spent in the process of designing and making.
+        We also create custom made pieces, knit samples and are always looking for new inspiring collaborations with in all areas of the creative industry.
+      </p>
+      
+     
+      <div class="touchLayer"></div>
+      
+    </div>
+    <div class="overlay projects" data-id="projects" style="opacity: 0">
+      <div class="touchLayer"></div>
+      <div class="projectsContainer"></div>
+      
+    </div>
+    <div class="overlay contact" data-id="contact" style="opacity: 0">
+      <div class="touchLayer"></div>
+      <h1>hello@elektroknit.com</h1>
+      
+
+    </div>
+    <img class="mainLoader" src="assets/triangle.svg" />
+    <script type="text/javascript" src="./gl-matrix-2.2.2-min.js"></script>
+
+    <script src="./bundle.js"></script>
+  </body>
+</html>
