@@ -1,0 +1,9 @@
+import ViewOverlay from './ViewOverlay';
+
+export default class ViewAbout extends ViewOverlay{
+
+	constructor(el, onHideCallback, callbackScope){
+
+		super(el, onHideCallback, callbackScope);
+	}
+}
